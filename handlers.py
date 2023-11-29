@@ -11,7 +11,7 @@ from datetime import datetime
 
 def createWorkbook(file_name: str):
     if os.path.exists(file_name):
-        file_path = 'F:/mutare/Coding/py-learning/arbitrumcounter/stats.xlsx'
+        file_path = 'stats.xlsx'
         wb = load_workbook(filename=file_path)
     else:
         wb = Workbook()
