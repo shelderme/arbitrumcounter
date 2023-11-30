@@ -13,7 +13,11 @@ from table import*
 
 def createWorkbook(file_name: str):
     if os.path.exists(file_name):
+<<<<<<< HEAD
         file_path = 'path to file'
+=======
+        file_path = 'stats.xlsx'
+>>>>>>> 9d9c48ce87f2e205c45ea80946aefd80b4a7ac62
         wb = load_workbook(filename=file_path)
     else:
         wb = Workbook()
